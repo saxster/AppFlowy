@@ -10,12 +10,6 @@ on:
       - "frontend/rust-lib/**"
       - ".github/workflows/rust_ci.yaml"
 
-  pull_request:
-    branches:
-      - "main"
-      - "develop"
-      - "release/*"
-
 env:
   CARGO_TERM_COLOR: always
   CLOUD_VERSION: 0.9.49-amd64
